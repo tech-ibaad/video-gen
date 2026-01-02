@@ -11,6 +11,7 @@ assets_generator = Agent(
     tools=[
         ImageGenerationTool(
             tool_config={
+							  "type" :"image_generation",
                 "model": "gpt-image-1",
             }
         ),
